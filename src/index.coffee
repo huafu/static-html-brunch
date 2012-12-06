@@ -1,4 +1,3 @@
-handlebars = require 'handlebars'
 sysPath = require 'path'
 
 module.exports = class StaticHtmlCompiler
