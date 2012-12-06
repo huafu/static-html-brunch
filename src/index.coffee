@@ -11,7 +11,7 @@ module.exports = class StaticHtmlCompiler
 
   compile: (data, path, callback) ->
     try
-      result = "module.exports = #{content};"
+      result = "module.exports = #{data};"
     catch err
       error = err
     finally
