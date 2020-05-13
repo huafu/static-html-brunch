@@ -1,13 +1,10 @@
 {
   "name": "static-html-brunch",
-  "version": "1.0.0",
+  "version": "1.8.0",
   "description": "Adds static html as part of require/amd support to brunch.",
-  "author": "Huafu Gandon",
+  "author": "Huafu Gandon <huafu.gandon@gmail.com>",
   "homepage": "https://github.com/huafu/static-html-brunch",
-  "repository": {
-    "type": "git",
-    "url": "git@github.com:huafu/static-html-brunch.git"
-  },
+  "repository": "https://github.com/huafu/static-html-brunch.git",
   "main": "./lib/index",
   "scripts": {
     "prepublish": "coffee -o lib/ src/",
@@ -15,7 +12,7 @@
     "test": "node setup.js test"
   },
   "engines": {
-    "node": "~0.6.10 || 0.8 || 0.9"
+    "node": "~0.6.10 || 0.8 || 0.9 || 0.10 || 0.12"
   },
   "dependencies": {
     "coffee-script": "1.9.1"
